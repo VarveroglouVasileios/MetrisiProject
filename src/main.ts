@@ -1,0 +1,18 @@
+import '@fontsource/ubuntu-condensed/greek-400.css'
+import '@fontsource/ubuntu-condensed/latin-400.css'
+import '@fontsource/cousine/greek-400.css'
+import '@fontsource/cousine/latin-400.css'
+import '@fontsource/cousine/greek-700.css'
+import '@fontsource/cousine/latin-700.css'
+import '@fontsource/noto-sans/greek-400.css'
+import '@fontsource/noto-sans/latin-400.css'
+import '@fontsource/noto-sans/greek-500.css'
+import '@fontsource/noto-sans/latin-500.css'
+import '@fontsource/noto-sans/greek-700.css'
+import '@fontsource/noto-sans/latin-700.css'
+import { createApp } from 'vue'
+import App from './App.vue'
+import { router } from './router'
+import './style.css'
+
+createApp(App).use(router).mount('#app')
